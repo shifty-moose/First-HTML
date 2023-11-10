@@ -1,0 +1,260 @@
+body {
+    text-align: center;
+    font-family: 'Fugaz One';
+    margin: auto;
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #fbf7ff 25%, transparent 25%), linear-gradient(225deg, #fbf7ff 25%, transparent 25%), linear-gradient(45deg, #fbf7ff 25%, transparent 25%), linear-gradient(315deg, #fbf7ff 25%, #ffffff 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 10px 10px;
+    background-repeat: repeat;
+}
+
+nav {
+    background-color: #e5e5f7;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 1em 1em 1em 0em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+nav a {
+    color: purple;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav a:hover {
+    background-color: rgb(210, 147, 210);
+    color: white;
+}
+
+.active {
+    background-color: rgb(169, 61, 169);
+    color: white;
+}
+
+footer {
+    background-color: #fde3ff;
+    opacity: 1;
+    background-image:  linear-gradient(#ffffff 0.8px, transparent 0.8px), linear-gradient(90deg, #ffffff 0.8px, transparent 0.8px), linear-gradient(#ffffff 0.4px, transparent 0.4px), linear-gradient(90deg, #ffffff 0.4px, #fde3ff 0.4px);
+    background-size: 20px 20px, 20px 20px, 4px 4px, 4px 4px;
+    background-position: -0.8px -0.8px, -0.8px -0.8px, -0.4px -0.4px, -0.4px -0.4px;
+    margin: 0;
+    margin-top: 2em;
+    padding: 0em 2em;
+    color: rgb(98, 1, 98);
+    border-top: 10px solid purple;
+
+
+}
+
+footer h3 {
+    padding-bottom: 0p;
+    padding: 10px;
+    padding-top: 2em;
+    font-family: 'Fugaz One';
+}
+
+#footerContent {
+    padding-bottom: 30px;
+}
+
+#homeArticle {
+    padding: 0em;
+    margin: auto;
+    padding-top: 65px;
+}
+
+
+#homeArticle h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(169, 61, 169);
+}
+
+#homeArticle h3 {
+    border: 4px purple solid;
+    border-radius: 0.8em;
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    padding: 0.8em;
+    display: inline-block;
+}
+
+#homeArticle h4 {
+    color: rgb(169, 61, 169);
+    margin-top: 2em;
+    padding: 0em 2em;
+}
+
+#iceCreamGuy {
+    max-width: 100%;
+}
+
+#myContactForm {
+    padding: 0em;
+    margin: auto;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+#myFormData {
+    border: 4px rgb(88, 1, 88) solid;
+    border-radius: 0.5em;
+    background-color: rgb(254, 238, 255);
+    padding: 1.5em;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input, textarea {
+    max-width: 100%;
+    margin: 1em;
+}
+
+#submitButton {
+    width: 50%;
+    padding: 10px;
+    background-color: purple;
+    border: 2px rgb(255, 238, 241) solid;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Fugaz One';
+}
+
+#submitButton:hover {
+    background-color: rgb(191, 116, 191);
+}
+
+#osContainer {
+    padding: 0em;
+    margin: auto;
+    padding-top: 6em;
+    padding-bottom: 02em;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+#osContainer h3 {
+    color: purple;
+    border-bottom: 2px purple solid;
+    margin: 0;
+}
+
+#orderSummaryContainer {
+    border: 4px purple solid;
+    border-radius: 5px;
+    background-color: rgb(254, 238, 255);
+    padding: 2em;
+    max-width: 300px;
+    margin-left: 2em;
+    align-items: center;
+}
+
+#iceCreamSelect {
+    display: inline-flex;
+    border: 2px purple solid;
+    border-radius: 5px;
+    background-color: rgb(246, 246, 246);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 80px;
+}
+
+#iceCreamSelect * {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0px;
+}
+
+#productChange {
+    text-align: center;
+    align-self: center;
+}
+
+#productChange:hover {
+    color: purple;
+}
+
+#planInfo { 
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+
+
+#planInfo h4 { 
+    padding: 0;
+    margin: 0;
+}
+
+#planInfo h5 {
+    padding: 0;
+    margin: 0;
+    color: rgb(96, 2, 96);
+}
+
+#productChange {
+    text-decoration: underline;
+    font-family: 'Fugaz One';
+    border: none;
+    background: none;
+    font-size: 16px;
+
+}
+
+.iceCreamImage {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+    border: 2px purple solid;
+}
+
+.dropdownContent a {
+    color: purple;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {background-color: rgb(255, 234, 238);}
+.dropdown:hover .dropdownContent {display: block;}
+
+#paymentButton h2 {
+    text-decoration: underline;
+    border: 4px rgb(255, 251, 252) solid;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 0;
+    background-color: purple;
+    color: white;
+}
